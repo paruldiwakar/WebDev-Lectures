@@ -1,0 +1,31 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+div.backgroundBlue{
+    background-color: blue;
+}
+div.backgroundimg{
+    background-image: url('./res/burg.png');
+}
+div.padding1{
+    padding: 100px 50px 70px 30px;
+}
+div.margin1{
+    margin: 100px;
+}
+#backgroundRed{
+    background-color: red;
+}
+.heightWidthpx{
+    height: 200px;
+    width: 300px;
+}
+.heightWidthpercent{
+width: 50%;
+}
+.heightWidthView{
+    height: 100vh;
+    width: 100vw;
+    background-color: saddlebrown;
+}

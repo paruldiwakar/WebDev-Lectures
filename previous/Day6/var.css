@@ -1,0 +1,24 @@
+:root{
+    --color1:rgb(92, 250, 92);
+    --color2:red;
+    --color3:blue;
+    --color4:rgb(255, 136, 0);
+    --bigFont:60px;
+}
+h1.text1{
+    color: var(--color1);
+    font-size: var(--bigFont);
+    background-color: var(--color4);
+}
+h1.text2{
+    color: var(--color2);
+    background-color: var(--color3);
+}
+h1.text3{
+    color: var(--color3);
+    background-color: var(--color2);
+}
+h1.text4{
+    color: var(--color4);
+    background-color: var(--color1);
+}

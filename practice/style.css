@@ -1,0 +1,52 @@
+/*Selector{
+    Property : value;
+    # --> id
+    . --> class
+    * --> all
+} */
+* {
+    text-align: right;
+}
+img {
+    float: left;
+}
+body {
+    background-image: url(exoplanet.jpg);
+    background-size: cover;
+}
+h2, p {
+   color: slateblue;
+   text-align: center;
+   border: 5px solid pink;
+   font-style: italic;
+   font-weight: bold;
+   font-family: 'Poiret One', cursive;
+} 
+p {
+    color: hotpink;  
+    line-height: 30px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+li {
+    list-style: none;
+    display: inline-block;
+}
+.webtext {
+    border: 5px solid plum;
+}
+.active {
+    color: teal;
+}
+#div1 {
+    background-color: azure;
+}
+#div2 {
+    background-color: blanchedalmond;
+}
+footer {
+    color: beige;
+    clear: both;
+    text-align: center;
+
+}
